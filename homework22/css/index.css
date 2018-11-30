@@ -238,7 +238,8 @@ body{
 }
 .footer{
     background: #515151;
-    color: #ffffff;
+    font-size: 15px;
+    color: #999999;
 }
 .footer>div{
     width: 1020px;
@@ -261,8 +262,25 @@ body{
 hr{
     color: #6f7273;
     width: 1020px;
-    margin: 20px auto;
+    margin: 10px auto;
 }
 .footer div:last-child div:last-child{
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+}
+.skip{
+    background: #515151;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.skip a:link{
+    text-decoration: none;
+    color: #999999;
+}
+.skip a:visited{
+    color: #999999;
+}
+.skip a:hover{
+    color: aqua;
 }

@@ -47,3 +47,18 @@ table td{
 tbody tr td:nth-child(odd){
     font-weight: bold;
 }
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.footer a:link{
+    text-decoration: none;
+    color: black;
+}
+.footer a:visited{
+    color: black;
+}
+.footer a:hover{
+    color: aqua;
+}
