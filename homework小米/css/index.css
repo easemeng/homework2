@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 1920px;
+    height: 100px;
+}
+.header>div{
+    margin: 0 auto;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.header>div div:first-child{
+    width: 50px;
+    height: 50px;
+    background: #f56600;
+}
+.header>div div:last-child span{
+    margin-left: 20px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.main-body{
+    width: 1920px;
+    height: 590px;
+    background-image: url("../images/banner.png")
+}
+.body-in{
+    width: 1200px;
+    height: 590px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.body-in>div{
+    width: 400px;
+    height: 525px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.body-in>div div:first-child{
+    width: 340px;
+    height: 75px;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.body-in>div div:nth-child(2){
+    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.body-in>div div:nth-child(3){
+    height: 100px;
+}
+.body-in>div div:nth-child(4){
+    color: #999999;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.body-in>div div:last-child{
+    line-height: 40px;
+    background: #e0e0e0;
+}
+.body-in div div:first-child a:link{
+    text-decoration: none;
+    color: #666666;
+}
+.body-in div div:first-child a:visited{
+    color: #666666;
+}
+.body-in div div:first-child a:hover{
+    color: #f56600;
+}
+.body-in div div:nth-child(3) a:link{
+    text-decoration: none;
+    color: #999999;
+}
+.body-in div div:nth-child(3) a:visited{
+    color: #999999
+}
+.body-in div div:nth-child(3) a:hover{
+    color: #f56600
+}
+input,button{
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+input{
+    color: #999999;
+    width: 336px;
+}
+button{
+    width: 340px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 1px solid #e0e0e0;
+    justify-content: center;
+    background: #f56600;
+}
+hr{
+    width: 130px;
+    color: #e0e0e0;
+}
+.footer{
+    width: 1920px;
+}
+.footer>div{
+    width: 1200px;
+    height: 215px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+}
+.footer>div div:first-child{
+    width: 225px;
+}
+.footer>div div {
+    margin: 5px 0;
+    color: #999999;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.footer>div a:link{
+    text-decoration: none;
+    color: #999999;
+}
+.footer>div a:visited{
+    color: #999999;
+}
+.footer>div a:hover{
+    color: #666666
+}
